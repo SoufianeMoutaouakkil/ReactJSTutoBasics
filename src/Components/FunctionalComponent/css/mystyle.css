@@ -1,0 +1,24 @@
+.my-h2 {
+  color: rgb(243, 7, 7);
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.my-button {
+  background-color: #00943e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition */
+}
+
+.my-button:hover {
+  background-color: #0070e7; /* Change the background color on hover */
+}
+
+.my-button:active {
+  background-color: #00152c; /* Change the background color when pressed */
+}
