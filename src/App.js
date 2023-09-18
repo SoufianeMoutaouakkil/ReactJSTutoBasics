@@ -14,15 +14,12 @@ import ListCC from "./Components/ClassComponent/ListCC";
 import MystyledFC from "./Components/FunctionalComponent/css/MystyledFC";
 import ConditionalRenderingFC from "./Components/FunctionalComponent/ConditionalRenderingFC";
 import DelFC from "./Components/FunctionalComponent/DelFC";
+import SimpleForm from "./Components/FunctionalComponent/forms/SimpleForm";
 
 export default function App() {
   return (
     <div className="App">
       <h1>Tuto Ecco : React basics</h1>
-
-      <DelFC title="Conditional Rendering">
-        <ConditionalRenderingFC />
-      </DelFC>
 
       <DelFC title="Simple Component">
         <SimpleCC />
@@ -59,6 +56,14 @@ export default function App() {
 
       <DelFC title="CSS Style">
         <MystyledFC />
+      </DelFC>
+
+      <DelFC title="Conditional Rendering">
+        <ConditionalRenderingFC />
+      </DelFC>
+
+      <DelFC title="Forms">
+        <SimpleForm />
       </DelFC>
     </div>
   );
